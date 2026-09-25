@@ -1,2 +1,34 @@
 
 /* Your CSS Code here. */
+    * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .NavBar {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            background-color: black;
+            color: white;
+            height: min-content;
+
+        }
+
+        .List {
+            display: flex;
+            gap: 2rem;
+            list-style-type: none;
+            padding: 10px;
+           
+        }
+
+        .heading {
+            padding: 10px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
